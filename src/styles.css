@@ -1,15 +1,29 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scroll-behavior: auto;
 }
 
 /* body {
   margin: 0;
 } */
 
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: 'Roboto', monospace;
+  /* font-family: 'Roboto', sans-serif; */
+  background: rgb(21, 27, 36);
+  overflow: scroll;
+  /* display: block; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .nav {
   position: sticky;
+  /* font-family: 'Roboto', sans-serif; */
   top: 0;
   background-color: rgb(36, 46, 61);
   color: grey;
@@ -60,6 +74,38 @@
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 5%;
+  display: inline-block;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.image-coding {
+  /* padding: 2px; */
+  /* size: 100%; */
+  /* border-left: 0px; */
+  /* float: right; */
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 65%;
+  flex-basis: 75%;
+  /* max-width: 100%;
+  flex-basis: 30%; */
+  /* margin-right: 10%; */
+  /* margin-top: 5%; */
+  /* z-index: 2; */
+  /* box-sizing: auto; */
+  /* align-content: center; */
+  /* border: 0; */
+  /* box-sizing: border-box; */
+}
+
+.codingImage {
+  flex-basis: 75%;
+  /* padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 65%; */
+  /* max-width: 100%;
+  flex-basis: 30%; */
 }
 
 .content {
@@ -71,7 +117,7 @@
 .content h1 {
   color: rgb(241, 241, 241);
   font-size: 2rem;
-  width: 50%;
+  width: 150%;
   height: auto;
   gap: 0;
 }
@@ -83,13 +129,13 @@
   width: 50%;
   height: auto;
   gap: 0;
-  margin-right: 0%;
-  margin-left: 0%;
+  /* margin-right: 0%;
+  margin-left: 0%; */
 }
 
 .buttons {
   border: 1px;
-  width: 50%;
+  width: 150%;
   height: auto;
   gap: 0;
 }
@@ -117,23 +163,6 @@
   width: fit-content;
 }
 
-.image {
-  /* padding: 2px; */
-  /* size: 100%; */
-  /* border-left: 0px; */
-  /* float: right; */
-  padding-top: 5%;
-  padding-right: 5%;
-  padding-left: 65%;
-  /* margin-right: 10%; */
-  /* margin-top: 5%; */
-  /* z-index: 2; */
-  /* box-sizing: auto; */
-  /* align-content: center; */
-  /* border: 0; */
-  /* box-sizing: border-box; */
-}
-
 .container-projects {
   margin-left: 10%;
   margin-right: 10%;
@@ -148,24 +177,37 @@
   gap: 0;
 }
 
-.container-projects projects {
+.main .container-projects .projects {
   marging: 10%;
   width: auto;
-  height: auto;
+  height: 500px;
 }
 
-.container-projects projects calculator-image {
+.main .container-projects .projects .calculator-image {
   float: left;
-  width: 35%;
-  height: auto;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
 }
 
-.container-projects projects pool-game-image {
-  float: right;
-  width: 35%;
-  height: auto;
+/* .main .container-projects .projects .pool-game-image {
+  float: left;
+  size: 15%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
+.pool-game-image {
+  float: left;
+  size: 7%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
+/* .projects-text-green-only {
+  color: green;
+} */
 .container-skills {
   margin-left: 10%;
   margin-right: 10%;
