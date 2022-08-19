@@ -268,9 +268,9 @@ img {
   position: relative;
   bottom: 0;
   overflow: hidden;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 30%;
+  margin-top: 30%;
   text-align: center;
   padding: 10%;
 }
