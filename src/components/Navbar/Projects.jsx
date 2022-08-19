@@ -20,13 +20,6 @@ function Projects() {
             <img src={pool} alt="pool game" />
           </div>
         </div>
-        {/* <div className="calculator-image">
-          <img src={calculator} alt="calculator" />
-        </div>
-        <div className="pool-game-image">
-          <img src={pool} alt="pool game" />
-        </div> */}
-
         <div className="second-row-space">
           <div className="dice-image">
             <img src={dice} alt="dice game" />

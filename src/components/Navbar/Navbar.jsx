@@ -8,14 +8,6 @@ function Navbar() {
         Laklak
       </a>
       <text className="text"> | </text>
-      {/* <a
-          className="content-projects"
-          // onClick={this.scrollTo}
-          // to="container-projects"
-        >
-          {' '}
-          Projects
-        </a> */}
       <Link
         className="content-projects"
         to="container-projects"
@@ -25,16 +17,12 @@ function Navbar() {
         Projects
       </Link>
       <a href="https://github.com/nareg-laklakian" className="github">
-        {' '}
-        {/* <img src={github} alt="github" width={15} /> */}
         github
       </a>
       <a
         href="https://www.linkedin.com/in/nareg-laklakian-b10120200/"
         className="linkedIn"
       >
-        {' '}
-        {/* <img src={linkedin} alt="linkedin" width={15} /> */}
         linkedIn
       </a>
     </nav>
