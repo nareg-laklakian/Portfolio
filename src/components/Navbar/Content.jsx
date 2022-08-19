@@ -1,12 +1,20 @@
 import React from 'react';
+<<<<<<< HEAD
 import img from '../../img/img.svg';
 import calculator from '../../img/calculator.PNG';
 import pool from '../../img/pool-game.PNG';
 import { Link } from 'react-scroll';
+=======
+import Projects from './Projects';
+import Skills from './Skills';
+import Navbar from './Navbar';
+import About from './About';
+>>>>>>> development
 
 function Content() {
   return (
     <div>
+<<<<<<< HEAD
       <nav className="nav">
         <a href="/" className="site-title">
           Laklak
@@ -128,6 +136,12 @@ function Content() {
         </div>
       </main>
       <figure></figure>
+=======
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+>>>>>>> development
     </div>
   );
 }

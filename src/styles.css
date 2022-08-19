@@ -1,15 +1,38 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+<<<<<<< HEAD
   scroll-behavior: auto;
+=======
+>>>>>>> development
 }
 
 /* body {
   margin: 0;
 } */
 
+<<<<<<< HEAD
 .nav {
   position: sticky;
+=======
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: 'Roboto', monospace;
+  /* font-family: 'Roboto', sans-serif; */
+  background: rgb(21, 27, 36);
+  overflow: scroll;
+  /* display: block; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav {
+  position: sticky;
+  /* font-family: 'Roboto', sans-serif; */
+>>>>>>> development
   top: 0;
   background-color: rgb(36, 46, 61);
   color: grey;
@@ -26,9 +49,15 @@
   margin-left: 7.5%;
 }
 
+<<<<<<< HEAD
 .content-projects {
   margin-left: 0px;
 }
+=======
+/* .content-projects {
+  margin-left: 0px;
+} */
+>>>>>>> development
 
 .text {
   font-size: large;
@@ -60,6 +89,43 @@
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 5%;
+<<<<<<< HEAD
+=======
+  display: inline-block;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.image-coding {
+  /* padding: 2px; */
+  /* size: 100%; */
+  /* border-left: 0px; */
+  /* float: right; */
+  position: relative;
+  left: 0;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 65%;
+  flex-basis: 75%;
+  /* max-width: 100%;
+  flex-basis: 30%; */
+  /* margin-right: 10%; */
+  /* margin-top: 5%; */
+  /* z-index: 2; */
+  /* box-sizing: auto; */
+  /* align-content: center; */
+  /* border: 0; */
+  /* box-sizing: border-box; */
+}
+
+.codingImage {
+  flex-basis: 75%;
+  /* padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 65%; */
+  /* max-width: 100%;
+  flex-basis: 30%; */
+>>>>>>> development
 }
 
 .content {
@@ -71,7 +137,11 @@
 .content h1 {
   color: rgb(241, 241, 241);
   font-size: 2rem;
+<<<<<<< HEAD
   width: 50%;
+=======
+  width: 150%;
+>>>>>>> development
   height: auto;
   gap: 0;
 }
@@ -83,13 +153,23 @@
   width: 50%;
   height: auto;
   gap: 0;
+<<<<<<< HEAD
   margin-right: 0%;
   margin-left: 0%;
+=======
+  /* margin-right: 0%;
+  margin-left: 0%; */
+>>>>>>> development
 }
 
 .buttons {
   border: 1px;
+<<<<<<< HEAD
   width: 50%;
+=======
+  width: 150%;
+  padding-top: 2%;
+>>>>>>> development
   height: auto;
   gap: 0;
 }
@@ -117,6 +197,7 @@
   width: fit-content;
 }
 
+<<<<<<< HEAD
 .image {
   /* padding: 2px; */
   /* size: 100%; */
@@ -138,16 +219,27 @@
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 5%;
+=======
+.container-projects {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
+>>>>>>> development
   text-align: center;
 }
 
 .projects-title {
   color: rgb(241, 241, 241);
+<<<<<<< HEAD
   font-size: 1.25rem;
+=======
+  font-size: 1.4rem;
+>>>>>>> development
   height: auto;
   gap: 0;
 }
 
+<<<<<<< HEAD
 .container-projects projects {
   marging: 10%;
   width: auto;
@@ -171,6 +263,101 @@
   margin-right: 10%;
   margin-top: 5%;
   text-align: center;
+=======
+.projects {
+  /* margin: 10%; */
+  width: auto;
+  height: 500px;
+  /* box */
+}
+
+/* .main .container-projects .projects .calculator-image {
+  float: left;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.main .container-projects .projects .pool-game-image {
+  float: left;
+  size: 15%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
+
+/* .first-row {
+  float: left;
+  width: 50%;
+  padding: 10px;
+} */
+
+.first-row-space {
+  width: 100%;
+}
+
+.calculator-image {
+  width: 32%;
+  float: left;
+  margin: 5% 5%;
+  padding: 0px;
+}
+
+.pool-image {
+  width: 45%;
+  float: right;
+  margin: 5% 5%;
+  padding: 0px;
+}
+
+.second-row-space {
+  width: 100%;
+  /* position: relative;
+  bottom: 0; */
+}
+
+.dice-image {
+  width: 35%;
+  /* width: 50%; */
+  bottom: 0;
+  float: right;
+  margin: 5% 5%;
+  padding: 0px;
+}
+
+.guess-number-image {
+  width: 30%;
+  float: left;
+  margin: 5% 5%;
+  padding: 0px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* .pool-game-image {
+  float: left;
+  size: 7%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
+
+/* .projects-text-green-only {
+  color: green;
+} */
+.container-skills {
+  position: relative;
+  bottom: 0;
+  overflow: hidden;
+  margin-left: 20%;
+  margin-right: 30%;
+  margin-top: 30%;
+  text-align: center;
+  padding: 10%;
+>>>>>>> development
 }
 
 .text-center {
@@ -194,3 +381,11 @@
 4. add projects in the middle part of the page
 
 */
+<<<<<<< HEAD
+=======
+
+/*
+
+get skills to be under projects div
+*/
+>>>>>>> development
